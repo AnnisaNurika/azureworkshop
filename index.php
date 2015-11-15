@@ -2,13 +2,11 @@
 <head>
 	<title>Web App Sederhana</title>
 </head>
-	<?php
-	if (!empty($_POST)) {
-		$nama = $_POST['nama'];
-		$email = $_POST['email'];
-
-		echo '<h1>Halo, ' . $nama . '!</h1';
-		echo 'Email : ' . $email;
-	}
-	?>
+	<form action="hellp.php" method="POST">
+		Nama : <input type="text" name="nama"/>
+		<br>
+		Email : <input type="email" nama="email"/>
+		<br>
+		<input type="submit" value="Enter"/>
+	</form>
 </html>
