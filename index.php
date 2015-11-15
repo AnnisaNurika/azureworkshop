@@ -1,3 +1,3 @@
-<?php 
-	echo "Hello ganteng";
-?>
+<html>
+<head>
+	<title
